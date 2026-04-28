@@ -1,0 +1,230 @@
+class - 1
+==========
+
+    -> Java 
+
+        -> Java is a high-level, general-purpose, memory-safe, 
+        object-oriented programming language. 
+        It is intended to let programmers write once, run anywhere, 
+        meaning that compiled Java code can run on all platforms 
+        that support Java without the need to recompile.
+
+        -> https://drive.google.com/file/d/1ywO0SMH_v1_MgNRo968r4dmj4GVmLkew/view?usp=sharing
+
+        
+        -> Language is primarily used for ?
+
+            Language is primarily used for "COMMUNICATION"
+
+        -> Human Languages: Communicate With Humans 
+
+            -> Human Languages: English, Hindi, Telugu etc 
+
+        -> Programming Languages: Communicate With Computers
+
+            -> Programming Languages: Java, Python, C++ etc
+
+        
+        -> Java is a high-level programming language
+
+            -> High Level Language 
+
+                -> High Level Language means "Human Understandable" Language (English)
+
+                    -> Java Code Looks Like English
+
+                        class Main {
+
+                            public static void main(String[] args) {
+                                
+                                int first = 10;
+                                int second = 20;
+
+                                // add two numbers
+                                int sum = first + second;
+                                System.out.println("Sum is: "+sum);
+                            }
+                        }
+
+                -> Low Level Language 
+
+                    -> Low Level Language means "Machine Understandable" Language 
+                    (Binary Bits i.e 10101010101)
+
+                    -> Machines Cannot Understand English, Hindi, Telugu etc 
+
+                    -> 01101010 01100001 01110110 01100001 ==> java
+
+                        -> https://alpharithms.s3.amazonaws.com/assets/img/ascii-chart/ascii-table-alpharithms-scaled.jpg
+
+                    
+
+        -> Java is a general-purpose programming language
+
+            -> If we can build "Multiple Types" Of Applications 
+
+                -> Desktop Applications ? -> Yes
+
+                -> Web Applications ? -> Yes
+
+                -> API's ? -> Yes
+
+
+        -> Domain Specific Language
+
+            -> If we can build Only "Specific Type" Of Applications 
+
+                -> SQL: Structured Query Language a domain-specific language 
+                used to manage data, especially in a relational database management system (RDBMS)
+                (MySQL, Postgres, Oracle etc)
+
+                    -> Desktop Applications ? -> No
+
+                    -> Web Applications ? -> No
+
+                    -> API's ? -> No
+
+
+        -> Java is a memory-safe language
+
+            -> Java manages memory automatically using JVM + Garbage Collector 
+
+            -> Automatically remove "Unused Data"
+
+            -> Java Automatically Cleans Up Unused Objects / Data from memory i.e RAM 
+
+                String product = "iphone";
+                int price = 120000
+                double rating = 4.7;
+                System.out.println(product)
+                System.out.println(price)
+
+            -> Java Cleans Up rating memory as it's never used in the program 
+
+            -> When an object is no longer used, Garbage Collector removes it Automatically 
+
+            -> NOTE: If we use C/C++, you need to manually clean up Unused memory.
+
+
+        
+        -> Java is a object-oriented programming language
+
+            -> object-oriented programming(OOP) models Real World things as Softwares Entities 
+
+            -> Object oriented means writing programs using "Classes & Objects"
+
+    
+        -> NOTE: Java is intended to let programmers write once, run anywhere(WORA)
+        meaning that compiled Java code can run on all platforms 
+        that support Java without the need to recompile.
+        I will explain this in detail when working with JVM(Java Virtual Machine)
+
+
+        -> Compiled Language (Java)
+
+            -> A Compiled Language Translates the Code into Byte Code 
+            then executes all the code at once 
+
+            -> NOTE: Performance wise Compiled Languages are "FASTER"
+
+                -> Enterprise Applications 
+
+                    -> Enterprise applications are large-scale, secure, and scalable software systems.
+                    Unlike consumer apps, they facilitate collaboration between departments 
+                    (e.g., HR, finance, sales) and manage massive data volumes.
+
+                    -> NOTE: Java is #1 preferred Language for Building Enterprise Applications 
+
+                -> Banking (Finance)
+
+                -> Security (Government / Defense / Military etc)
+
+
+        -> Interpreted Language (Python)
+
+            -> An Interpreted Language Executes Code Line By Line 
+
+            -> NOTE: Performance wise Interpreted Languages are "SLOWER"
+
+            -> NOTE: Python is #1 preferred Language for Building Prototype Applications 
+
+                -> Data Science (AI)
+                -> Data Analysis 
+                -> Automation Scripting 
+
+
+        -> Programming Paradigms 
+
+            -> A programming paradigm is a relatively high-level way to 
+            conceptualize and structure the implementation of a computer program.
+
+            -> Problem: How To Reach Institute ? 
+
+                -> Solution 1: I'll Come By Walk 
+                -> Solution 2: I'll Come By Bike
+                -> Solution 3: I'll Come By Car 
+
+            -> We have Two Popular Types 
+
+                -> Imperative Approach
+
+                    -> Focus is on "HOW TO DO" (java)
+
+                    -> Object Oriented Approach
+
+                -> Declarative Approach 
+
+                    -> Focus is on "WHAT TO DO" (SQL)
+
+                    -> Functional Oriented Approach 
+            
+            -> NOTE: https://miro.medium.com/v2/resize:fit:1200/1*Jf5GJS1XtRsHWbZldcvOiQ.png
+
+    
+
+    -> Key Features Of Java / Why Java ? 
+
+        -> Object-Oriented
+
+        -> Platform Independent
+
+        -> Secure
+
+        -> Robust 
+
+        -> High Performance
+
+        -> Open Source 
+
+        -> One of the Most Popular Language in industry now 
+        List Of Popular Applications
+
+            -> https://en.wikipedia.org/wiki/Programming_languages_used_in_most_popular_websites
+
+
+    -> Road Map (Java Backend)
+
+        -> Core Java (Language Fundamentals) (No Projects To Build) 
+
+        -> Advance Java (You Can Build Projects)
+
+            -> Collections Framework (API)
+
+            -> Database Systems
+
+            -> SQL 
+
+            -> Web Apps / Web Services (Spring & Spring Boot (API's))
+
+    -> Frontend Technologies 
+
+        -> HTML / CSS / JS / REACT 
+
+    -> Fullstack Developer 
+
+        -> Frontend Technologies + Java Backend 
+
+
+
+
+
