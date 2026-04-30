@@ -226,5 +226,199 @@ class - 1
 
 
 
+class - 2
+==========
+
+    -> System Requirements For This Course (Practical Labs)
+
+        -> i3 / i5 Processor 
+
+        -> 4 GB RAM / 8 GB RAM 
+
+        -> 500 GB HDD / 500 GB SSD 
+
+    -> Softwares 
+
+        -> Install Java 
+
+            -> Verify Java Installation 
+
+                -> Open Command Prompt (windows) / Open Terminal (linux/macos)
+
+                    -> java -version 
+
+                        -> If it says 'java' is not recognized, then start installing Java 
+
+            
+            -> Install Java Development Kit (JDK) 
+
+                -> Download From
+                    
+                    -> https://www.oracle.com/java/technologies/downloads/
+
+                -> Versions (LTS - Long Term Support) 
+
+                    -> Download the Latest LTS Version and Install exe/msi file 
+
+                    -> Close and reopen Command Prompt
+
+                        -> java -version 
+
+
+            -> Install IDE 
+
+                -> IDE: Integrated Development Environment 
+
+                -> Tool for writing code 
+                (syntax highlight, auto code completion, install plugins etc)
+
+                -> Visual Studio Code - VS Code (Writing Code)
+
+
+
+    -> How To Write Java Code ? 
+
+    -> Any Programming Language has Rules i.e "Syntax"
+
+    -> Comparing Programming Language with English Language
+
+        -> i taking class now today at 7:00 AM now (incorrect)
+
+        -> i'm taking class today at 7:00 AM (correct)
+
+    
+    -> Learn English (Language)
+
+        -> English has 26 Alphabets (abcd......z)
+
+        -> Using these Alphabets, we learn to form words and complex sentences
+        with proper grammar over a time 
+
+    
+    -> Learn Java (Language)
+
+        -> Java has 50+ Keywords (Which are equivalent to English Alphabets)
+
+        -> Using these Keywords, we form Statements Using Syntax / Rules Over a time 
+
+        -> List Of Java Keywords 
+
+            -> https://docs.oracle.com/javase/tutorial/java/nutsandbolts/_keywords.html
+
+                abstract    assert       boolean     break       byte
+                case        catch        char        class       const
+                continue    default      do          double      else
+                enum        extends      final       finally     float
+                for         goto         if          implements  import
+                instanceof  int          interface   long        native
+                new         package      private     protected   public
+                return      short        static      strictfp    super
+                switch      synchronized this        throw       throws
+                transient   try          void        volatile    while
+
+        -> NOTE: All the above Keywords, hold some special meaning to Java 
+
+            -> https://en.wikipedia.org/wiki/List_of_Java_keywords
+
+    
+    
+    -> Java Syntax / Rules / Best Practices 
+
+        -> Any Java File We write, it should have an extension as .java 
+
+            -> App.java or Demo.java 
+
+        -> In Java, Program Execution Starts from main() methods 
+
+            -> public static void main(String[] args)
+
+        -> Java Ignores Any Line that starts with // 
+
+            -> // means single-line comment 
+            -> /* comment */ means multi-line comments 
+
+    -> NOTE: Install Java extension pack in Visual Studio Code (VS Code)
+
+
+    -> Write Code 
+
+        -> Instructing What Task To Perform 
+
+    -> Compile Code 
+
+        -> Compilation: Convert Source Code To Intermediate Byte Code
+
+            -> Source Code (.java file)
+                -> After Compilation we get 
+            -> Byte Code (.class file)
+
+    
+    -> Start Writing Code 
+
+        -> Created first_basics/Demo.java
+
+            Say Hello
+
+        -> javac first_basics/Demo.java
+
+            error: class, interface, enum, or record expected
+
+        -> Every Java File should have class, interface, enum, or record expected
+
+            -> class is must for beginner level, followed by class Name
+            which is File name 
+
+
+        package first_basics; // Folder Name
+
+        class Demo {
+            // From Here Program Execution Starts -> main()
+            public static void main(String[] args) { 
+                System.out.println("Say hello");
+            }
+        }
+
+        -> package: Java package is a group of similar classes and interfaces. 
+        Packages are declared with the package keyword
+        -> class: A type that defines the implementation of a particular kind of object. 
+        -> public: Access Modifier (visibility control)
+        -> static: Says no need of object to Perform operations
+        -> void: Says we will not return anything (void means nothing)
+
+        -> NOTE: All the above are Keywords
+
+        -> main: Method Name 
+        -> String: Data Type 
+        -> []: Array Data Type
+        -> args: Arguments 
+        -> ; indicates end of the Statement
+
+
+    -> javac first_basics/Demo.java
+
+        -> NOTE: If Compilation is successful, we will get .class File 
+        (Demo.class)
+
+    -> Once Compilation is completed, Execute / Run the program 
+
+        -> java is the command we use to run the byte code 
+
+        -> java ClassName 
+
+            -> java first_basics/Demo
+
+    
+    -> NOTE: Any Java Program 
+
+                                                               javac       no issues       jvm    
+        -> Demo.java (Source Code / Human Readable Code) -> Compilation -> Demo.class -> java Demo -> Any Machine 
+
+            -> NOTE: Java Slogan (Write Once Run Anywhere - WORA)
+
+        -> https://media.licdn.com/dms/image/v2/D4D22AQEffXA-CyFfwQ/feedshare-shrink_800/B4DZlBrfYQIEAg-/0/1757743546060?e=2147483647&v=beta&t=aDGVmugZxoL7XsAq50xnzJRi3zAJTwmm4EgMMdrLEYg
+
+        -> https://miro.medium.com/v2/resize:fit:1400/1*8Hx0bZrChSIxDTylwhqPLQ.png
+
+                    
 
 
