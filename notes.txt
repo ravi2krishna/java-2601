@@ -421,4 +421,170 @@ class - 2
 
                     
 
+class - 3
+==========
+
+    -> JVM - JRE - JDK
+
+        -> JVM: Java Virtual Machine 
+
+            -> Virtual Machine: Logical Machine inside a physical machine
+
+            -> Role: Convert Byte Code To Machine Code 
+
+
+        -> JRE: Java Runtime Environment 
+
+            -> Runtime: Provide required infrastructure to operate the programs
+
+            -> JRE it includes JVM
+
+            -> JRE is needed to run java applications (so no javac)
+            
+            -> NOTE: End User needs JRE to run the Java Application
+
+        
+        -> JDK: Java Development Kit
+
+            -> Provides Tools Needed for Application Development (javac & java)
+
+            -> As a developer you'll be installing JDK
+
+            -> JDK includes JRE also JVM as part of JRE 
+
+            -> JDK: Allows Developers to Write Code, Compile Code & Run Code
+
+        -> https://drive.google.com/file/d/1_r1fW3O8o7cAvFOJebgj8PDuudY9yhmd/view?usp=sharing 
+
+        -> https://drive.google.com/file/d/100I5LEb9gBSsYekS5HWXWUuH6QBNtU-i/view?usp=sharing
+
+
+    
+    -> Identifiers 
+
+        -> An identifier is a "name" used to uniquely identify a piece of data
+        in Java code.
+
+            -> Variable
+            -> Method
+            -> Class
+            -> Object
+            -> Package
+            -> Interface
+            -> etc
+
+        -> Identifiers Rules
+
+            -> Can Contain
+
+                -> Alphabets (a-z A-Z)
+                -> Digits (0-9)
+                -> Special Symbols (_ and $)
+
+            -> Must Start With
+
+                -> A Alphabet
+                -> _ (underscore)
+                -> $ (dollar sign)
+
+            -> Cannot Start With
+
+                -> Digits (0-9)
+
+            -> Cannot Use
+
+                -> Java Keywords as identifier names
+
+                    -> int class = 10;   (wrong)
+
+            -> NOTE: Always Use Proper Way Of Naming Identifiers
+
+            -> NOTE: Class Names should start with Upper Case
+
+                -> Student
+                -> Employee
+                -> SavingsAccount
+                -> CurrentAccount 
+
+            
+            -> NOTE: Variable and Method names should start with lower case
+
+                -> studentName - Variable
+                -> calculateSalary() - Method
+        
+            -> NOTE: Always use UPPER CASE for Static Data (Fixed/Doesn't Change)
+
+
+
+    -> Variables 
+
+        -> A Variable stores data. 
+
+        -> A variable is name of memory (RAM) location, which is used to store data.
+
+        -> Why Variable ? Variables Allow You To 
+
+            -> Assign Data 
+
+            -> Retrieve Data 
+
+            -> Manipulate Data 
+
+        -> Syntax 
+
+            datatype variableName = value; 
+
+            -> datatype: Classification of data (whole number, decimal number, text etc)
+            -> variableName: Label (Should comply identifier rules)
+            -> =: Assignment Operator 
+            -> value: Some Data to store 1000(price), 4.2(rating), "Nike" (brand)
+
+            -> NOTE: If you want to store any data, defining data type is must and 
+            also datatype should be appropriate type based on value being stored
+
+
+    
+    -> Data Types 
+
+        -> Datatype inside java defines what kind of value a variable can hold
+
+        -> Classification Of Data types
+
+            -> Primitive Data Types (Simple Data Types) (Predefined)
+
+                -> byte: stores whole numbers from -128 to 127 [ Size : 1 Byte] 
+                -> short: stores whole numbers from -32768 to 32767 [ Size : 2 Bytes] 
+                -> int: stores whole numbers from -2^31 to 2^31-1 [ Size : 4 Bytes]
+                    -2,147,483,648 to 2,147,483,647
+                -> long: stores whole numbers [ Size : 8 Bytes]
+                    -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+
+                
+                -> float: stores decimal numbers [ Size : 4 Bytes]
+                    1.2, 2.5, 5.0, -1.5 etc 
+                -> double: stores decimal numbers [ Size : 8 Bytes]
+                    219010.090391093, 239039.83993939320202 etc 
+
+                -> char: stores a single character [ Size : 2 Bytes] 
+                    'a','1','$','@' etc 
+
+                -> boolean: stores either true or false [ Size : 1 Byte] 
+                    true, false 
+
+
+
+            -> Non-Primitive Data Types (Complex  Data Types) (Predefined) (User defined)
+
+                -> String: Complex Data Type (Predefined)
+                -> Arrays: Complex Data Type (Predefined)
+                
+                -> Student: Complex Data Type (User defined)
+                -> Trainer: Complex Data Type (User defined)
+
+
+        -> NOTE: Concatenation is joining multiple strings 
+        or joining strings with Other Data types using + Operator
+
+        
+
 
