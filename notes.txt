@@ -586,5 +586,176 @@ class - 3
         or joining strings with Other Data types using + Operator
 
         
+class - 4
+==========
+
+    -> Variable are used to Manipulate Data  
+
+        -> To Manipulate Data we need "Operators"
+
+    -> Operators 
+
+        -> Special Symbols, that perform operations on Variables and values
+
+    -> Operators Classification
+
+        -> Arithmetic Operators 
+
+            -> Used To Perform Mathematical Calculations 
+
+                -> + - * / % 
+
+        -> Increment / Decrement Operators
+
+            -> Used In Loops 
+
+                -> Update (Increase) a value by 1 called as Increment ++
+
+                -> Update (Decrease) a value by 1 called as Decrement --
 
 
+        -> Compound Assignment Operators 
+
+            -> = is Assignment Operator 
+
+            -> Combining Arithmetic and Assignment is Compound Assignment Operators 
+
+            -> Used For Short Hand Code (Concise Code)
+
+                -> x = 10 
+                -> Requirement: Multiply x by 5 and store result back in x 
+
+                -> x = 10
+                -> x = x * 5 (long form)
+
+                -> x = 10
+                -> x *= 5 (short form)
+
+                -> NOTE: x = x * 5 and x *= 5 both yields same result
+
+
+        -> Comparison / Relational Operators 
+
+            -> USed For Comparison Of Values 
+
+            -> Result Will be Boolean (true/false)
+
+            -> We Use them in Conditional Checks 
+
+                -> == (equality)
+                -> != (not equal)
+                -> > 
+                -> <
+                -> >=
+                -> <= 
+
+        -> Logical Operators 
+
+            -> Logical Operators are used for Performing Logical Operations
+
+            -> Used to check multiple conditions and result is in boolean type (true/false) 
+
+                -> && (AND) : returns true, when both conditions are true, otherwise false 
+                -> || (OR) : returns true, when one of the conditions is true, otherwise false  
+                -> ! (NOT) : negates the result, if true then false and vice versa  
+
+                    X       Y         X && Y    X || Y    ! X    ! Y
+                    T       T           T         T         F       F
+                    T       F           F         T         F       T
+                    F       T           F         T         T       F
+                    F       F           F         F         T       T  
+
+                -> student is passed and student also has attendance criteria, then give certificate 
+                -> student is passed and student also has no attendance criteria, then don't give certificate 
+                -> student is not passed and student also has attendance criteria, then don't give certificate 
+                -> student is not passed and student also has no attendance criteria, then don't give certificate 
+
+
+        -> Bitwise Operators
+
+            -> Used is low level programming (01010101)
+
+                -> & - if both bits are 1, then result is 1 
+                -> | - if one of the bits is 1, then result is 1 
+                -> etc 
+
+                    1 & 1 - 1
+                    1 & 0 - 0
+                    0 & 0 - 0
+
+                    1 | 1 - 1
+                    1 | 0 - 1
+                    0 | 0 - 0
+
+
+
+    -> Control Structures / Control Statements
+
+        -> Control Structures helps you determine the flow of execution 
+        in a java program, allowing you to "make decisions" and "repeat tasks"
+
+            -> "make decisions"
+
+            -> "repeat tasks"
+
+        -> Java has given three types of Control Structures 
+
+            -> Conditional Structures / Statements (Decision Making Statements)
+
+            -> Looping Structures / Statements (Iteration Statements)
+
+            -> Branching Structures / Statements (Jump Statements)
+
+    
+    -> Conditional Structures / Statements
+
+        -> Used to run a "block of code" based on a condition result 
+
+        -> if 
+
+            -> runs a block of code, if the condition is True 
+
+                -> Syntax
+
+                    if (condition) {
+                        Statements
+                    }
+
+        -> if else 
+
+            -> runs a block of code, if the condition is True 
+            runs another block of code, if the condition is False 
+
+            -> Syntax
+
+                    if (condition) {
+                        Statements
+                    } else {
+                        Statement
+                    }
+
+        
+        -> NOTE : Ternary operator / conditional operator, allows to write
+            concise form of if-else 
+
+                -> Syntax: variable = (condition) ? value_if_true:value_if_false
+
+                -> Use when assigning a value to variable based on condition 
+
+
+        -> else if ladder 
+
+            -> It is used in conditional statements to check "multiple conditions"
+            sequentially after an initial if statement
+
+                    if (condition) {
+                        Statements
+                    } else if (condition) {
+                        Statements
+                    } else if (condition) {
+                        Statements
+                    } else if (condition) {
+                        Statements
+                    } else {
+                        Statement
+                    }
