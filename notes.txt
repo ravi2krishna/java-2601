@@ -759,3 +759,82 @@ class - 4
                     } else {
                         Statement
                     }
+
+class - 5
+==========
+
+    -> Switch Statement 
+
+        -> A switch statement is used to select one block of code 
+        from multiple options based on a single value.
+
+        -> Syntax
+
+            switch(expression) {
+                case value1:
+                    // statement
+                    break;
+                case value2:
+                    // Statements
+                    break;
+                    .
+                    .
+                    .
+                default:
+                    // Statements
+                    break;
+            }
+
+
+        Feature	        switch	                    if-else
+        Condition type	Only equality (==)	        Any condition (>, <, &&, etc.)
+        Readability	    Cleaner for many values	    Becomes messy with many conditions
+        Performance	    Slightly faster 	        Slower if many checks
+        Use case	    Fixed values	            Complex logic 
+
+        -> NOTE: You should use switch when you are Comparing one variable against fixed values 
+
+            -> Menu Options 
+            -> Status Codes 
+            -> Roles 
+            -> Days 
+
+        -> NOTE: Don't use switch when you want to do 
+
+            -> if (age > 18 and salary > 25000) - this CANNOT be done using switch 
+
+        -> NOTE: If you forget break, java will execute all cases after match,
+        this is called as Fall Through 
+
+        -> In Modern Java (17 Onwards) switch is more Readable
+
+
+
+    -> Scanner 
+
+        -> Scanner in java is a Predefined class part of java.util package 
+
+            -> package: Collection Of Related Classes 
+        
+        -> NOTE: To use Scanner, we need to import java.util package
+
+        -> Scanner will read the inputs 
+
+        -> Scanner class has inbuilt methods 
+
+            -> nextInt(): reads integer values
+            -> nextDouble(): reads decimal values
+            -> next(): reads next word (string)
+            -> nextLine(): reads entire line (string)
+            -> etc 
+
+
+    -> Nested Conditionals 
+
+        -> Conditionals inside Conditionals
+
+        -> Nested Conditionals involve placing an if or if/else statement 
+        inside another if, elif, or else block
+
+        -> This allows the program to evaluate multiple criteria sequentially, 
+        where the inner condition is only checked, if the outer condition is true. 
