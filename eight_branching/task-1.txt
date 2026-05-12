@@ -1,0 +1,33 @@
+# Student Tracker
+# identifiers, variables, data types, operators, conditional, loops
+
+-> Collect following info from Student
+
+    -> Student ID
+    -> Student Name
+    -> Attendance
+
+-> Ask student to input Score 
+
+    -> Repeatedly ask student for marks (yes/no)
+    -> Based on scores given, calculate total marks
+    -> calculate average marks
+
+-> Based on average marks
+    -> 85 and above = A
+    -> 75 to 84 = B
+    -> 74 to 60 = C
+    -> 59 to 35 = D
+    -> below 35 = Fail
+
+-> Attendance >= 75 also got A grade, then give him Award 
+
+-> Print Output 
+
+    -> Student ID
+    -> Student Name
+    -> Total Score
+    -> Average Score
+    -> Grade 
+    -> Number Of Subjects / Score
+    -> Award Status

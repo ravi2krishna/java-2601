@@ -900,4 +900,132 @@ class - 6
         generate patterns like pyramids, right angles, left angles and also to perform
         actions that require "multiple layers of Iterations"
 
+
+class - 7
+==========    
+
+    -> Branching Structures / Statements (Jump Statements)
+
+        -> Used within loops, these statements also control the flow of execution, 
+        allowing you to exit a loop early (break) or skip the current iteration (continue)
+
+            -> break: used inside loop, to exit a loop early (used in switch case old syntax)  
+
+            -> continue: used inside loop, to skip the current iteration (continue)
+
+            -> return: used to return a value 
+
     
+    -> OOP 
+
+        -> Object Oriented Programming 
+
+        -> We Structure Programs using Objects 
+
+        -> OOP, or Object-Oriented Programming, is a programming model/paradigm 
+        that organizes code around "objects" which are software entities 
+        that contain both "data" (attributes/variables) and the "methods"(functions) 
+        that operate on that data.
+
+        -> Moving Forward 
+
+            -> Thinking in terms of real world entities (objects)
+
+                -> Object - Data (attributes/variables)
+
+                -> Object - Behavior (methods/functions)
+
+    -> Main Concepts Of OOP 
+
+        -> Classes 
+
+        -> Objects 
+
+        -> Methods 
+
+        -> OOP Principals 
+
+            -> Inheritance 
+            -> Encapsulation
+            -> Abstraction 
+            -> Polymorphism 
+
+    -> Any thing can in real world can be considered as Object
+
+        -> Laptop 
+        -> TV 
+        -> Phone 
+        -> Pen 
+        -> etc    
+
+    -> An Object has two entities 
+
+        -> An Object "has" something like Characteristics / Properties (VARIABLES) - CAR 
+
+                -> CAR has brand 
+                -> CAR has price 
+                -> CAR has color 
+                -> CAR has etc 
+
+        -> An Object "does" something like Behaviors / Actions (METHODS) - CAR 
+
+                -> CAR does drive forward
+                -> CAR does drive backward 
+                -> CAR does sound horn 
+                -> CAR does etc 
+
+    -> How To Create Objects ? 
+
+        -> We need a "Class" to create objects 
+
+    
+    -> Class 
+
+        -> A class is a "blueprint" for creating objects 
+
+        -> A class will define, what Characteristics & Behaviors, an object should posses
+
+        -> NOTE: A Car class can define 
+
+            -> What can a car "HAVE"  
+
+            -> What can a car "DO"  
+
+    -> Class: 
+        
+        -> https://s3.amazonaws.com/gc-p/screenshots/pics/68446cebb1c92aa555eca8fbff217689/large.jpg
+
+    -> Object:
+
+        -> https://cdn.mos.cms.futurecdn.net/Drifb4WGUoCj2gVUo2BQnG-1540-80.jpg
+        
+        -> https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/2018_BMW_M5_Automatic_4.4.jpg/1280px-2018_BMW_M5_Automatic_4.4.jpg
+
+
+    -> Laptop (Class)
+
+            -> Apple Object
+                -> Laptop Brand = Apple
+                -> Laptop Price = 1000000 
+                -> Laptop Weight = 1.2
+                -> Laptop 4k Display = true 
+                -> etc
+
+                -> Apple Laptop can play video (4k)
+                -> Apple Laptop can play audio (25watts)
+                -> Apple Laptop can read file (in 2 sec)
+                -> Apple Laptop can take snap (12MP)
+                -> etc 
+
+            -> Dell Object
+                -> Laptop Brand = Dell
+                -> Laptop Price = 65000 
+                -> Laptop Weight = 2.5
+                -> Laptop 4k Display = false 
+                -> etc
+
+                -> Dell Laptop can play video (1080p)
+                -> Dell Laptop can play audio (10watts)
+                -> Dell Laptop can read file (in 5 sec)
+                -> Dell Laptop can take snap (5MP)
+                -> etc 
