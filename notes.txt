@@ -1029,3 +1029,56 @@ class - 7
                 -> Dell Laptop can read file (in 5 sec)
                 -> Dell Laptop can take snap (5MP)
                 -> etc 
+
+
+class - 8
+==========
+
+    -> Methods 
+
+        -> Behaviors / Actions
+
+        -> A method is a block of code that performs some task 
+
+    -> Syntax 
+
+        // class creation 
+        class ClassName {
+
+        }
+
+        // class creation 
+        ClassName object = new ClassName();
+
+        // method creation 
+        accessModifier returnType methodName(parametersList) {
+            // method body / actions / tasks 
+        }
+
+
+
+    -> Methods
+
+        -> In Java, a method is a named "Reuseable Block Of Code"
+        that performs a specific task, takes inputs(parameters), 
+        process data and can return an output.
+
+        -> Why Methods 
+
+            -> For writing Modular, Organized and Efficient Code 
+
+            -> Methods can break down complex problems into smaller 
+            manageable sub tasks for promoting code Modularity 
+
+            -> Once defined a method, can be called Multiple Times, 
+            so that you can achieve Code Reusability 
+
+                // method creation 
+                accessModifier returnType methodName() {
+                    // method body / actions / tasks 
+                }
+
+                // method creation 
+                accessModifier returnType methodName(parametersList) {
+                    // method body / actions / tasks 
+                }

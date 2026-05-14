@@ -1,0 +1,44 @@
+# LMS - Learning Management System 
+
+# Build a simple console based Application which simulates Simple LMS 
+
+-> Student 
+    -> Take below inputs 
+        -> Student ID
+        -> Student Name 
+        -> Attendance 
+        -> Score / Marks 
+
+    -> Based On Attendance
+
+        -> 30 or more: +5 credits
+        -> 20–29: +3 credits
+        -> Below 20: 0 credits
+
+    -> Based On Score
+        -> 85 or more: +5 credits
+        -> 60–84: +3 credits
+        -> Below 60: 0 credits
+
+    -> Calculate Final Achievement using credits above
+        -> 10 or more → GOOD
+        -> 8–9 → BETTER
+        -> Below 8 →  "IMPROVE"
+
+
+-> Trainer
+
+    -> Take below inputs 
+        -> Trainer ID
+        -> Trainer Name 
+        -> Number Of Sessions Taken By Trainer
+
+    -> Calculate payment for sessions, each session is 1500
+
+    -> Prompt for Student rating (1 to 5)
+        -> Student gives 5 rating -> add bonus of 5000
+        -> Otherwise no bonus
+    
+    -> Calculate Total Payment To be made 
+
+-> Display Student & Trainer Details 
