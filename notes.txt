@@ -1082,3 +1082,118 @@ class - 8
                 accessModifier returnType methodName(parametersList) {
                     // method body / actions / tasks 
                 }
+
+
+class - 9
+==========
+
+    -> Variable stores data
+
+    -> Types Of Variables 
+
+        -> Instance Variables
+
+        -> Local Variables
+
+        -> Static Variables (Class / Global)
+
+
+
+    -> Instance Variables
+
+        -> Created inside the class and outside the method, without static keyword
+
+        -> Instance: Object of an class 
+
+        -> Instance Variables are always associated with Object
+
+        -> Memory is allocated when object is created 
+
+        -> Instance Variables have default values, if not initialized
+
+    
+    -> Local Variables
+
+        -> Created inside the method, blocks and constructors 
+
+        -> Local Variables are used for Temporary Calculations 
+
+        -> Once execution is completed, Local Variables becomes obsolete 
+
+        -> Local Variables should be initialized 
+
+    
+    -> Static Variables
+
+        -> Created inside the class and outside the method, with static keyword
+
+        -> Static Variables are always associated with Class 
+
+        -> Used for Fixed / Static Values (Common Data)
+
+        -> Static Variables have default values, if not initialized
+
+        -> To Access Static Variable we use Class i.e ClassName.staticVariable  
+
+
+
+    Type        Declared                Belongs To         Default Values       Memory
+    local       method/blocks           method/blocks      Must initialize      Stack
+    instance    class(no static)        objects            Yes                  Heap
+    static      class(with static)      class              Yes                  MethodArea
+
+
+-> Constructors 
+
+    -> Method: Block of code that performs some task 
+
+    -> Constructor: Block of code that initializes Default Values (Special Task)
+
+    -> NOTE: Constructor is a special method that is Automatically called, when object is created
+
+    -> Normal Methods (Instance Methods) what we learnt so far cannot be called 
+    Automatically, we need to call them using object 
+
+        -> Create Object 
+        -> Call Method 
+
+        -> Example: showEmployeeInfo() 
+
+    -> Constructors are used mainly for 
+
+        -> initialize default values 
+
+        -> set up start up values 
+
+    -> NOTE: 
+
+        -> Constructor Name should always be Class Name Only, unlike methods 
+
+        -> Constructors will not have return types
+
+        -> Automatically invoked, unlike methods 
+
+    -> Types Of Constructors
+
+        -> Default Constructor (Implicit Constructor)
+
+            -> Used to initialize all objects with same data 
+
+        -> Parameterized Constructor (Explicit Constructor)
+
+            -> Used to initialize different objects with different data 
+
+            -> Constructor Overloading (Polymorphism)
+
+
+    -> this keyword 
+
+        -> this is used to refer current object / instance 
+
+        -> Helps to avoid ambiguity between parameters 
+
+            -> To distinguish between variables and parameters with same name 
+
+
+
+    
