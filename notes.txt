@@ -1196,4 +1196,50 @@ class - 9
 
 
 
+class - 9
+==========
+
+    -> Constructor overloading in Java is a technique that allows a class 
+    to have more than one constructor with the same name, 
+    provided they have different parameter lists. 
     
+    -> This enables you to initialize objects in various ways depending 
+    on the data available at the time of creation.
+
+    -> Based On 
+
+        -> Number Of Parameters
+
+            -> Number of parameters: Having a different count of arguments (e.g., zero-arg vs. two-arg).
+
+        -> Type Of Parameters
+
+            -> Type of parameters: Having arguments of different data types (e.g., int vs. String).
+
+        -> Order Of Parameters
+
+            -> Order of parameters: Having the same types but in a different sequence (e.g., (int, String) vs. (String, int))
+
+
+    -> this()
+
+        -> this() is a special syntax used to call one constructor from another within the same class. 
+        This practice is known as "constructor chaining" and is primarily used to 
+        reduce code duplication when you have multiple overloaded constructors.
+
+        -> this vs. this() 
+            
+            -> While they look similar, they serve different purposes:
+            
+                -> this (Keyword): A reference variable that refers to the current object. 
+                It is used to access instance variables (e.g., this.name = name) 
+            
+                -> this() (Call): A specific syntax for invoking constructors
+
+            -> Using Real World Use case with hover and click functionality 
+
+                -> When hover show only few details
+
+                -> When click show all details
+
+                
