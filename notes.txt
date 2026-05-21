@@ -1243,3 +1243,38 @@ class - 9
                 -> When click show all details
 
                 
+class - 10
+==========
+
+    -> int x = 10; (primitive data type, which can hold one value inside single variable)
+
+    -> My use case is holding multiple values in single variable
+
+        -> In java we have Collections Framework, to handle multiple values in single variable
+
+    -> We can start with arrays, which give the ability to handle multiple values in single variable
+
+    -> Arrays 
+
+        -> Arrays are data Structures that holds multiple values 
+
+        -> Syntax 
+
+            -> datatype [] variable_name = new datatype[size];   
+
+        -> Arrays have index numbers, index starts from zero 
+
+    
+    -> Array Types 
+
+        -> Single Dimensional Arrays 
+
+            datatype [] variable_name = new datatype[size];   
+
+        -> Multi Dimensional Arrays 
+
+            datatype [][] variable_name = new datatype[size][size];   
+            datatype [][][] variable_name = new datatype[size][size][size];   
+
+            
+         
