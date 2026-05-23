@@ -1277,4 +1277,40 @@ class - 10
             datatype [][][] variable_name = new datatype[size][size][size];   
 
             
-         
+class - 11
+==========
+
+    -> Strings 
+
+        -> A string is a collection or sequence of characters 
+
+        -> String is non-primitive datatype 
+
+        -> String is a special datatype in java
+
+            -> Strings are handled in a different way compared to other classes
+
+        -> String Memory Management
+
+            -> String Memory Pool, is a place where same strings will be allocated
+            with same memory address 
+
+        -> NOTE: https://journaldev.nyc3.cdn.digitaloceanspaces.com/2012/11/String-Pool-Java1-450x249.png
+
+        -> NOTE: The main difference in Java is that 
+        == compares memory references (where the object is), while 
+        .equals() compares the actual content (what the string says)
+
+        -> NOTE: == with primitives, we compare values
+
+    -> String Immutability
+    
+        -> Strings are immutable in nature i.e strings objects cannot be changed once created
+
+    -> String Methods 
+
+        -> Java String class provides a vast library of built-in methods(60+) 
+        for manipulating text. Because strings are immutable, these methods do not 
+        change the original string  but instead return a new one or a specific value.
+
+        -> https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html
