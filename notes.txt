@@ -1314,3 +1314,10 @@ class - 11
         change the original string  but instead return a new one or a specific value.
 
         -> https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/String.html
+
+
+class - 13
+==========
+
+    -> String Methods are built-in methods that operate on string objects
+    allowing for various manipulations, transformations, and checks(validations). 
