@@ -1321,3 +1321,115 @@ class - 13
 
     -> String Methods are built-in methods that operate on string objects
     allowing for various manipulations, transformations, and checks(validations). 
+
+
+class - 14
+==========
+
+    -> String Immutability
+    
+        -> Strings are immutable in nature i.e strings objects cannot be changed once created
+
+        -> Say we have string, when we perform any operation on Strings say like concat(), 
+        then it results in creation of new objects.
+
+        -> Above Approach leads to performance issue, when making lot of modification on strings 
+
+        -> To Overcome this problems, Java has provided following classes to handle Mutable Strings 
+
+            -> StringBuffer (Thread Safe) (Slower)
+
+            -> StringBuilder (Not Thread Safe) (Fastest)
+
+            -> NOTE: The primary difference between String, StringBuilder, and StringBuffer 
+            lies in their mutability, thread safety and performance.
+
+        -> NOTE: Strings are like Pen & Paper (Fixed)
+
+        -> NOTE: StringBuffer and StringBuilder are like White Boards & Temporary Marker (Changed)
+
+
+
+    
+    -> Static vs Non-Static(Instance) vs Local 
+
+        -> Local Variables
+
+        -> Static Variables
+
+        -> Instance Variables
+
+        -> Static Methods 
+
+        -> Static Blocks 
+
+        -> Instance Methods
+
+        -> Instance Blocks 
+
+
+    -> Check Class - 9   
+    
+        -> Local Variables
+
+        -> Static Variables
+
+        -> Instance Variables
+
+
+    -> NOTE: How can we allocate memory to a java program ?
+
+        -> Using new keyword (When creating an object)
+
+        -> Using static keyword (without creating an object)
+
+    
+    -> Assume Main is not static 
+
+        -> To Start Program Execution 
+
+        -> We Need an Entry Point i.e main method
+
+        -> Main is not static 
+
+        -> Object needs to be created first 
+
+        -> But to create the object, java needs to execute program(begin at main)
+
+        -> Which again requires the object, this leads to Circular Dependency Problem 
+
+        -> NOTE: To overcome above Circular Dependency Problem, java came up with static keyword
+
+
+    -> Class Loader Subsystem 
+
+        -> First will write .java file 
+        -> We compile then we get .class file 
+        -> The .class file is loaded into Class Loader Subsystem 
+
+            -> https://miro.medium.com/v2/resize:fit:1400/1*BsLZHUe-5Qv2tbHdz-U_TQ.png
+        
+        -> Then class loader Subsystem, will look for static fields(variables, methods, blocks) 
+        are present if present then immediately in method area, 
+        a memory block will be allocated (only once memory allocated)
+        
+        -> Then class loader will look for Object Creation(new keyword), if present then 
+        immediately in heap area, a memory block will be allocated 
+        (for every object memory is allocated)
+
+
+        -> NOTE: Above concepts is connected to 
+
+            -> Static Methods 
+
+            -> Static Blocks 
+
+            -> Instance Methods
+
+            -> Instance Blocks 
+
+
+
+
+
+

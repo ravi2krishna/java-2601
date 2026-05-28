@@ -1,0 +1,5 @@
+# Now Add Course Fee Calculation by Applying Some Coupons 
+
+# Coupon is PROMO apply 5000 Discount 
+# Coupon is 50-OFF apply 15000 Discount 
+
