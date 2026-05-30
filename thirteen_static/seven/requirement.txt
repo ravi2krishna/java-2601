@@ -1,0 +1,6 @@
+# Now Add Institute Details which are common for all objects 
+
+# Will have some static variables, initialized in static blocks 
+
+# Will have static methods to work with static variables 
+

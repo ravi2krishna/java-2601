@@ -1429,7 +1429,63 @@ class - 14
             -> Instance Blocks 
 
 
+class - 15
+==========
 
+    -> Static Block 
 
+        -> A static block (or static initialization block) in Java 
+        is a normal block of code wrapped in curly braces and preceded by 
+        the static keyword. 
+        
+        -> It executes automatically exactly once when the Java Virtual Machine (JVM) 
+        loads the class into memory, running even before the main method 
+        or any object constructor.
 
+        -> We use static blocks to, Initialize static variables
 
+    
+    -> Static Method
+
+        -> In Java, a static method is a method that belongs to the class itself 
+        rather than to any specific object instance. 
+        
+        -> This means you can invoke it directly using the class name 
+        without creating an object first.
+
+        -> We use Static methods for Utility or Helper Classes,
+        Standard built-in Java tools like Math.sqrt()
+        The standard entry point public static void main
+
+    -> Instance Block
+
+        -> An instance block (also known as an Instance Initialization Block (IIB)) 
+        is a nameless block of code defined inside a class but 
+        outside any methods or constructors. 
+        
+        -> It executes automatically every single time an object of the class is created, 
+        running right before the constructor body completes its execution.
+
+        -> An instance block is declared simply by using curly braces {} inside a class.
+
+        -> We use Instance Block to Avoid Code Duplication: 
+        If you have multiple overloaded constructors requiring the same 
+        initial setup or complex logic, you can place that shared logic 
+        inside an instance block instead of copying it into every constructor.
+
+    
+    -> Instance Method
+
+        -> An instance method in Java is a method that belongs to an object (an instance) 
+        of a class rather than the class itself.
+
+        -> To use an instance method, you must instantiate  class by creating an object first.
+
+        -> Accessor Methods (Getters): Used to read or retrieve the values of 
+        private instance variables safely without altering them.
+        
+        -> Mutator Methods (Setters): Used to modify or update the values of 
+        private instance variables, often containing validation logic.
+        
+        -> Behavioral Methods: General purpose actions that represent 
+        what an object can do (e.g., startEngine(), calculateTotal())
