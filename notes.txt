@@ -1489,3 +1489,84 @@ class - 15
         
         -> Behavioral Methods: General purpose actions that represent 
         what an object can do (e.g., startEngine(), calculateTotal())
+
+
+class - 16
+==========
+
+    -> OOPS Principals 
+
+        -> Inheritance 
+
+            -> Establishing relationship between Classes, so that we can achieve "REUSABILITY" 
+
+        -> Encapsulation 
+
+            -> Hiding Data and Encapsulation also means binding Data & Behavior together
+
+        -> Abstraction
+
+            -> Hiding Implementation (Internal Details)
+
+        -> Polymorphism
+
+           -> A Single Entity, Exhibit Multiple Forms  
+
+    
+    -> Inheritance 
+
+        -> Inheritance is a core OOP concept where a new class, 
+        called a subclass or child class, acquires the properties(variables) and methods 
+        of an existing class, called a superclass or parent class.
+
+        -> Main purpose of Inheritance is Code Reusability
+
+        -> To use Inheritance we need extends keyword 
+
+    
+    -> Types Of Inheritance 
+
+        -> Single Level 
+
+            -> A class inherit from Single Parent Class 
+
+        -> Multi Level 
+
+            -> A class inherit from another class, which in turn inherits from another class 
+
+        -> Multiple 
+
+            -> A class inherits from more than one class / two or more classes
+
+            -> Java doesn't support Multiple Inheritance using Classes 
+
+            -> Java supports Multiple Inheritance using Interfaces 
+
+            -> Interface: Interfaces have abstract methods (No Implementation For Methods)
+
+            -> To achieve Multiple Inheritance we use "implements" keyword 
+
+        -> Hierarchal 
+
+            -> Multiple Classes Inherit from a Single Parent 
+
+        -> Hybrid 
+
+            -> Combination of at least two types of Inheritance is called Hybrid
+
+            -> When Working with interface we can extend another interface, but you cannot implements interface
+
+
+    -> In Our LMS Application we have currently Student & Trainer
+
+    -> In Future we might add other users as well like Mentor, VideoAdmin, SuperAdmin etc 
+
+    -> Keeping "REUSABILITY" in context, will add a Common Entity For all above 
+
+        -> Person - Common Entity 
+
+            -> Student is Person
+            -> Trainer is Person
+            -> Mentor is Person
+            -> VideoAdmin is Person
+            -> SuperAdmin is Person

@@ -1,0 +1,13 @@
+-> In Our LMS Application we have currently Student & Trainer
+
+    -> In Future we might add other users as well like Mentor, VideoAdmin, SuperAdmin etc 
+
+    -> Keeping "REUSABILITY" in context, will add a Common Entity For all above 
+
+        -> Person - Common Entity 
+
+            -> Student is Person
+            -> Trainer is Person
+            -> Mentor is Person
+            -> VideoAdmin is Person
+            -> SuperAdmin is Person
