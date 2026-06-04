@@ -1570,3 +1570,41 @@ class - 16
             -> Mentor is Person
             -> VideoAdmin is Person
             -> SuperAdmin is Person
+
+
+class - 17
+==========
+
+    -> Encapsulation 
+
+        -> Encapsulation is a core concept in object-oriented programming (OOP) that "binds"
+        data(variables) and the methods that operate on data into a single unit called "Class" 
+
+        -> Binding Of Data(Variables) and Methods is done in Classes 
+
+            -> https://www.cincom.com/wp-content/uploads/2025/08/ENCAPSULATION-01.webp
+
+        
+        -> Encapsulation process also involves "restricting" direct access to an 
+        object's internal state, which is a principle known as "data hiding" 
+
+        
+        -> Data Hiding 
+
+            -> Access Modifiers 
+
+                -> public 
+
+                -> private 
+
+                -> protected 
+
+                -> default
+
+            -> Above Applies for all entities in java like variables, methods etc 
+
+            -> NOTE: Only On Top Level Classes we can use, only public and default
+
+            -> NOTE: You Cannot Make Top Level Classes as private and default 
+
+    
