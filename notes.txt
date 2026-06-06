@@ -1608,3 +1608,69 @@ class - 17
             -> NOTE: You Cannot Make Top Level Classes as private and default 
 
     
+class - 18
+==========
+
+    -> Encapsulation Continued
+
+        -> NOTE: It's not a good practice, to directly allow objects to change data 
+
+        -> As we saw with fifteen_encapsulation.Four.OneStudent.java, in other classes 
+        like fifteen_encapsulation.Four.TwoTeacher.java we can modify data 
+
+        -> NOTE: If we keep private access modifier, then we cannot update 
+        object data directly like earlier (Good Practice)
+
+        -> NOTE: Once we made variables as private, others can no longer directly update the data,
+        but say we have a teacher who wants to update these details, then how do we achieve it ?? 
+
+            -> Setters & Getters 
+
+
+        -> How Getters and Setters Facilitate Encapsulation:
+        
+            -> Data Hiding: Class variables are declared as private. 
+            This prevents direct access and modification of these variables 
+            from outside the class, effectively hiding the internal state of the object. 
+
+            -> Controlled Access: Instead of direct access, public getter (accessor) and 
+            setter (mutator) methods are provided.
+
+            -> Setter methods (e.g., setName(String name)): "modify the value" of a private variable. 
+            They typically follow the naming convention  set + VariableName and 
+            take a parameter of the same type as the variable.
+
+            -> Getter methods (e.g., getName()): "retrieve the value" of a private variable. 
+            They typically follow the naming convention get + VariableName 
+            (with the first letter of the variable name capitalized).
+
+
+        -> Constructor vs Setter 
+
+            -> Constructor Initializes a newly created object.
+
+            -> Setter Method Modifies values of an existing object.
+            
+            -> Constructor Runs exactly once per object lifecycle.
+
+            -> Setter Method Can be called multiple times.
+
+
+        -> Use a Constructor when
+
+            -> The data is mandatory for the object to function properly.
+
+            -> You want to enforce immutability (preventing values from being changed).
+
+            -> You want to validate data at the exact moment of creation.
+
+        -> Use a Setter when
+            
+            -> The data is optional and has a default value.
+
+            -> The property needs to change dynamically during the object's lifetime.
+
+            -> You are working with frameworks (like classic Java Beans or Hibernate) 
+            that require default constructors and setters.
+
+
