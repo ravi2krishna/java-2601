@@ -1674,3 +1674,123 @@ class - 18
             that require default constructors and setters.
 
 
+
+class - 19
+==========
+
+    -> Abstraction 
+
+        -> Abstraction in OOP is a principle that involves "hiding" complex "implementation" 
+        details and showing only the essential features of an object to the user.
+
+        -> Hiding implementation: means "hiding the internal workings" of an object 
+        and present a simplified view.
+
+        -> For example, when using an ATM, 
+        you only interact with a simple interface (card, PIN, cash dispenser) without needing 
+        to know the complex process of backend banking operations that occur. 
+
+            -> Without Abstraction - https://www.youtube.com/watch?v=DKF5dKo_r_Y 
+
+            -> With Abstraction - https://www.youtube.com/shorts/XKVC4EdbRv0
+
+        -> NOTE: Hiding implementation means "hiding the internal workings" (Methods) 
+
+        -> NOTE: To Achieve Abstraction We have 
+
+            -> Interfaces & Abstract Classes 
+
+        
+        -> Interfaces 
+
+
+            -> An interface in Java acts as a blueprint or formal contract to specify behaviors 
+            that a class must implement. It is a foundational component used to achieve 
+            total abstraction, loose coupling, and multiple inheritance in Java applications.
+
+            -> Interface is a Blueprint for Class
+
+                -> Class is Blueprint for Object 
+
+                    -> Interface -> Class -> Object
+
+            -> Core Characteristics
+            
+                -> Abstract Methods: By default, methods lack a body and are implicitly public 
+                and abstract.
+                
+                -> Constants: All variables declared inside an interface are automatically public,
+                static, and final.
+                
+                -> No Instantiation: Interfaces cannot be used to create objects directly. 
+                They do not contain constructors.
+                
+                -> Multiple Inheritance: A single Java class can implement multiple interfaces 
+                simultaneously.
+
+            -> Interfaces Contain Abstract Methods 
+
+                -> Abstract Methods: Methods Without Implementation
+
+                -> Concrete Methods: Methods With Implementation
+
+            -> NOTE: Interfaces are like Contracts 
+
+
+            -> From Laptop Example Scenario From 2020
+
+                -> interface / contract Laptop (2020)
+
+            -> Now we are in 2026 
+
+                -> Now govt passed a mandate every laptop vendor should include bio metric auth
+
+            -> NOTE: If above was the situation till Java 7, We Need Abstract Classes 
+
+            -> Before Java 8, Interfaces support Only Abstract Methods 
+
+                -> From Java 8, we can add default methods in interfaces, 
+                where we can provide Concrete implementation 
+
+
+        -> Abstract Classes 
+
+            ->  An abstract class in Java is a class that is 
+            declared with the "abstract" keyword
+
+            -> It serves as a blueprint for other classes and cannot be instantiated 
+            directly, meaning you cannot create objects of an abstract class. 
+
+            -> Abstract Classes Contains 
+
+                -> Abstract Methods 
+
+                -> Concrete Methods 
+
+            -> NOTE: Abstract classes are extended by other classes using the extends keyword
+
+            -> NOTE: Abstract classes are primarily used to achieve partial abstraction 
+            by allowing you to define "common data and behaviors" that 
+            multiple subclasses can inherit and specialize.
+
+            -> Inheritance Rules: A subclass extending an abstract class must 
+            implement all of its inherited abstract methods, 
+            unless the subclass itself is also declared abstract.
+
+            -> Use an Abstract Class when:
+            
+                -> You want to share state (instance variables) and 
+                default code implementation among closely related objects.
+                
+                -> You need to define a clear identity or "is-a" relationship 
+                (e.g., a Car is-a Vehicle)
+
+            
+            -> Use an Interface when:
+
+                -> You want to define a specific capability or 
+                peripheral role ("can-do" behavior) across unrelated classes 
+                (e.g., both a Spaceship and a UFO can implement Movable).
+
+                -> You need to take advantage of multiple inheritance 
+                to combine independent functional specifications.
