@@ -30,6 +30,8 @@ class Car extends Vehicle {
     void accelerate() {
         System.out.println("The car accelerates rapidly using an internal combustion engine.");
     }
+
+    
 }
 
 public class FiveAbstractClass {

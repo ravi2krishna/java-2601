@@ -1794,3 +1794,50 @@ class - 19
 
                 -> You need to take advantage of multiple inheritance 
                 to combine independent functional specifications.
+
+
+
+class - 20
+==========
+
+    -> LMS Project Implementation With OOP Abstraction 
+
+        -> Use an Interface when:
+
+            -> You want to define a specific capability or 
+            peripheral role ("can-do" behavior) across unrelated classes 
+            (e.g., calculateCourseFee, calculateAverageScore specific to student).
+
+            -> Interfaces (Personable & Payable)
+
+                -> Personable Interface Defines Contract For Entities Like Student & Trainer 
+
+                    -> Manage their personal information
+
+                -> Payable Interface Defines Contract For Entities That involve in payment calculations 
+
+                    -> Course Fee for Students 
+                    -> Session Payments for Trainers  
+                    -> Salary Payments for Admins 
+
+        -> Use an Abstract Class when:
+                
+            -> You want to share state (instance variables i.e Person Details) and 
+            default code implementation among closely related objects.
+                    
+            -> You need to define a clear identity or "is-a" relationship 
+            (e.g., a Student is-a Person, Trainer is-a Person etc)
+
+
+        -> Use Concrete Classes 
+
+            -> Implementation Classes 
+
+            -> Student Class and Trainer Class 
+
+            -> These Classes will now extend Abstract Class i.e AbstractPerson class, 
+            inheriting common personal attributes 
+
+        -> NOTE: With Interfaces, You need to take advantage of multiple inheritance 
+        to combine independent functional specifications. 
+        (Student implements Personable,Payables)
