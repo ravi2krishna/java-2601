@@ -1841,3 +1841,49 @@ class - 20
         -> NOTE: With Interfaces, You need to take advantage of multiple inheritance 
         to combine independent functional specifications. 
         (Student implements Personable,Payables)
+
+
+class - 21
+==========
+
+    -> Polymorphism 
+
+        -> Polymorphism in OOP is the ability to take on "many forms"
+
+        -> Polymorphism (from the Greek for "many forms") is the ability of an entity, 
+        such as an object, method to take on different forms or 
+        behave differently depending on the context in which it is used.
+
+        -> Polymorphism promotes code flexibility and extensibility 
+        by enabling a single method to have multiple behaviors,
+        often through method overloading and method overriding.
+
+        -> Types Of Polymorphism 
+
+            -> Compile Time Polymorphism / Method Overloading
+
+                -> Method Overloading in Java is a feature that allows a class 
+                to have multiple methods with the exact same name 
+                but different parameter lists.
+
+                -> Method Overloading, occurs during compile time 
+
+                -> Based On Parameters passed to method 
+
+                -> Number Of Parameters, Order Of Parameters & Type Of Parameters 
+
+            
+            -> Run Time Polymorphism / Method Overriding
+
+                -> Method Overriding in Java allows a subclass to provide a 
+                specific implementation of a method that is already defined 
+                in its superclass.
+
+                -> Method Overriding, occurs during run time 
+
+                -> Based On Parent Class Implementations, provide new functionality 
+                in child classes 
+
+            
+        -> NOTE: Real Word Application 
+        https://images.news18.com/ibnlive/uploads/2018/02/Amazon-India-UPI-Payment-Option.jpg    
